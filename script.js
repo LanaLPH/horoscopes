@@ -37,7 +37,6 @@ function showHoroscope() {
         return showPiscesHoro()
     }
 
-
     if (month == MAR && day >= 20 || month == APR && day < 20)
         return showAriesHoro()
 
@@ -47,20 +46,14 @@ function showHoroscope() {
     if (month == MAY && day < 22 || month == JUN && day <= 20)
         return showGeminiHoro()
 
-
-
     if (month == JUN && day < 22 || month == JUL && day < 23)
         return showCancerHoro()
-
 
     if (month == JUL && day > 22 || month == AUG && day < 23)
         return showLeoHoro()
 
-
     if (month == AUG && day > 22 || month == SEP && day < 23)
         return showVirgoHoro()
-
-
 
     if (month == SEP && day > 22 || month == OCT && day < 23)
         return showLibraHoro()
@@ -73,57 +66,76 @@ function showHoroscope() {
 
 }
 
-function showCapricornHoro() {
-    alert('Hi there capricornite!')
-}
-
 function showAquariusHoro() {
-    alert('Hi there aquarius!')
+    document.getElementById("scopeVideo").src = "https://www.youtube.com/embed/MxtcJadzP9c";
+    document.getElementById("scopeMe").src = "images/aquarius.png"; 
+    document.getElementById("scopeName").innerHTML = "Hi there Aquarius";
 }
 
 function showPiscesHoro() {
-    alert('Hi there pisces!')
+    document.getElementById("scopeVideo").src = "https://www.youtube.com/embed/T88fbTPRML8";
+    document.getElementById("scopeMe").src = "images/fish.png"; 
+    document.getElementById("scopeName").innerHTML = "Hi there Pisces";
 }
 
 function showAriesHoro() {
-    alert("Hi there Aries")
+    document.getElementById("scopeVideo").src = "https://www.youtube.com/embed/-Of0SdUYTFs";
+    document.getElementById("scopeMe").src = "images/ram.png"; 
+    document.getElementById("scopeName").innerHTML = "Hi there Aries";
 }
 
 function showTaurusHoro() {
-    alert('Hi there taurus!')
+    document.getElementById("scopeVideo").src = "https://www.youtube.com/embed/hMNbaqEM90U";
+    document.getElementById("scopeMe").src = "images/bull.png"; 
+    document.getElementById("scopeName").innerHTML = "Hi there Taurus";
 }
 
 function showGeminiHoro() {
-    alert('Hi there gemini!')
+    document.getElementById("scopeVideo").src = "https://www.youtube.com/embed/kTHZ7xYk9Qs";
+    document.getElementById("scopeMe").src = "images/twins.png";
+    document.getElementById("scopeName").innerHTML = "Hi there Gemini";
 }
 
 function showCancerHoro() {
-    alert('Hi there cancer!')
+    document.getElementById("scopeVideo").src = "https://www.youtube.com/embed/rIT8_X-_OwI";
+    document.getElementById("scopeMe").src = "images/cancer.png"; 
+    document.getElementById("scopeName").innerHTML = "Hi there Cancer";
 }
 
 function showLeoHoro() {
-    alert('Hi there leo!')
+    document.getElementById("scopeVideo").src = "https://www.youtube.com/embed/eF5icmIg-Kk";
+    document.getElementById("scopeMe").src = "images/lion.png"; 
+    document.getElementById("scopeName").innerHTML = "Hi there Leo";
 }
 
 function showVirgoHoro() {
-    alert('Hi there virgo!')
+    document.getElementById("scopeVideo").src = "https://www.youtube.com/embed/Ho64ICRvip8";
+    document.getElementById("scopeMe").src = "images/virgo.png"; 
+    document.getElementById("scopeName").innerHTML = "Hi there Virgo";
 }
 
 function showLibraHoro() {
-    alert('Hi there libra!')
+    document.getElementById("scopeVideo").src = "https://www.youtube.com/embed/H6DT2K3YHg4";
+    document.getElementById("scopeMe").src = "images/libra.png"; 
+    document.getElementById("scopeName").innerHTML = "Hi there Libra";
 }
 
 function showScorpioHoro() {
-    alert('Hi there scorpio!')
+    document.getElementById("scopeVideo").src = "https://www.youtube.com/embed/RKKSUKvVyS4";
+    document.getElementById("scopeMe").src = "images/scorpio.png"; 
+    document.getElementById("scopeName").innerHTML = "Hi there Scorpi";
 }
 
 function showSagittariusHoro() {
    document.getElementById("scopeVideo").src = "https://www.youtube.com/embed/5OtlgJPIPMw";
     document.getElementById("scopeMe").src = "images/feature-sagittarius.jpg";
+    document.getElementById("scopeName").innerHTML = "Hi there Sagittarius"
 }
 
 function showCapricornHoro() {
-    alert('Hi there capricorn!')
+    document.getElementById("scopeVideo").src = "https://www.youtube.com/embed/-ofFO4KNI3g";
+    document.getElementById("scopeMe").src = "images/goat.png"; 
+    document.getElementById("scopeName").innerHTML = "Hi there Capricorn";
 }
 
 function showAllZodiacSigns() {

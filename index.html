@@ -10,7 +10,7 @@
 <body>
     <h1 class="w3-center">What's you Zodiac Sign?</h1>
     <h2 class="w3-center">Show your day of birth to see what your horoscope message is.</h2>
-        <div class="w3-col m6 w3-padding-large">
+    <div class="w3-col m6 w3-padding-small">
         <h3>
             Your birth month in number
         </h3>
@@ -24,18 +24,28 @@
         </p> -->
         <button id="button" type="button" onclick="showHoroscope()">Submit</button>
         <p>
-            <br> ALso, you can check out other signs on astrological
-            <br>
-            <img id="scopeMe" src="images/Scopes.png" alt="scopeMe" width="560" height="90">
+            <label class="w3-center" for="">
+                <span id="scopeName"></span>
+            </label>
+            <img id="scopeMe" src="images/urhoroscope.png" alt="scopeMe" width="560" height="90">
         </p>
-        <button id="button2" type="button" onclick="showAllZodiacSigns()">Show All Zodiac Signs!</button>
+
         <p id=para>
         </p>
     </div>
-    <div class="w3-col m6 w3-padding-large">
-        <iframe id="scopeVideo" src="" frameborder="0" width="660" height="415" allowfullscreen></iframe>
+    <div class="w3-col m6 w3-padding-small video-container">
+        <iframe id="scopeVideo" src="" frameborder="0" width="600" height="415" allowfullscreen></iframe>
     </div>
 
+    <div class="w3-row m6 w3-padding-small">
+        <span>ALso, you can check out other signs on astrological</span>
+        <p>
+            <button id="button2" type="button" onclick="showAllZodiacSigns()">Show All Zodiac Signs!</button>
+            <img src="images/Scopes.png" alt="scopeMe" width="560" height="90">
+        </p>
+
+
+    </div>
 
 
 </body>
