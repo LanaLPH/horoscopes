@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Zodiac Sign</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <h1 class="w3-center">What's you Zodiac Sign?</h1>
+    <h2 class="w3-center">Show your day of birth to see what your horoscope message is.</h2>
+        <div class="w3-col m6 w3-padding-large">
+        <h3>
+            Your birth month in number
+        </h3>
+        <input class="w3-input w3-animate-input" id="month" type="number" placeholder="Enter birth month here" autofocus min="1"
+            max="12" /> E.g.: If you were born in 'March' you'd enter '3'.
+        <h3>Your birth day </h3>
+        <input class="w3-input w3-animate-input" id="day" type="number" placeholder="Enter birth day here" min="1" max="31" />
+        <br>
+        <!-- <p>
+            
+        </p> -->
+        <button id="button" type="button" onclick="showHoroscope()">Submit</button>
+        <p>
+            <br> ALso, you can check out other signs on astrological
+            <br>
+            <img id="scopeMe" src="Scopes.png" alt="scopeMe" width="560" height="90">
+        </p>
+        <button id="button2" type="button" onclick="showAllZodiacSigns()">Show All Zodiac Signs!</button>
+        <p id=para>
+        </p>
+    </div>
+    <div class="w3-col m6 w3-padding-large">
+        <iframe id="scopeVideo" src="" frameborder="0" width="660" height="415" allowfullscreen></iframe>
+    </div>
+
+
+
+</body>
+
+
+
+</html>
