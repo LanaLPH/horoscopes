@@ -2,7 +2,7 @@
 Tell your day of birth and I can show your horoscope and....
 
 #Challenge 
-How you can fix existing code which was fail logical such operations, variable name.
+How you can fix existing code which was fail logical such as operations, variable name.
 ```e.g   if (month == OCT) {
     if (1 <= day <= 23) //conditional
       return showLibraHoro()
